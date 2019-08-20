@@ -15,7 +15,7 @@ export default class RecipiList extends Component{
             {
               recipies.map(
                 recipi=>(
-                  <Recipe key={recipi.id} recipi={recipi}/>
+                  <Recipe key={recipi.recipe_id} recipi={recipi}/>
                 )
               )
             }
