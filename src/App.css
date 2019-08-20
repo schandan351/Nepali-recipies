@@ -1,7 +1,11 @@
 .letter-spacing{
   letter-spacing: 0.5rem;
 }
-.header-style {
+.header-style,.default-style{
   min-height: calc(100vh - 56px);
   background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("./images/default-image.jpeg")center/cover no-repeat;
+}
+.default-style{
+  background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("https://images.pexels.com/photos/461428/pexels-photo-461428.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")center/cover no-repeat;
+
 }
