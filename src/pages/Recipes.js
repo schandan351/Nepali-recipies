@@ -19,7 +19,7 @@ export default class Recipes extends Component{
     })
   }
   handleSubmit=e=>{
-    e.preventDefault()
+    e.preventDefault();
   }
   render(){
     return(
