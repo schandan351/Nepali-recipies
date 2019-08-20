@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import Recipies from './pages/Recipes';
 import SingleRecipies from './pages/SingleRecipies';
 import Default from './pages/Default';
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {BrowserRouter as Router,Route,Switch} from "react-router-dom";
